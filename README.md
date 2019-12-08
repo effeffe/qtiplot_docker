@@ -1,6 +1,6 @@
 # qtiplot_docker
 
-INFO
+INFO\
 This is a repository to allow the installation of qtiplot on systems where pre-built packages are not available or compiling is very messy if not impossible.
 This docker file is based in a debian buster image from docker, allowing X11 forwarding as well.
 
