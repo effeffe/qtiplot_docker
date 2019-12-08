@@ -19,7 +19,7 @@ First of all, we need to allow local X11 connections, as follows:
 
 The execute this on the first run
 
-`$ docker run -it --env=DISPLAY --env=QT_X11_NO_MITSHM=1 --volume=/tmp/.X11-unix:/tmp/.X11-unix:rw --volume=/etc/group:/etc/group:ro --volume=/etc/passwd:/etc/passwd:ro --volume=/etc/shadow:/etc/shadow:ro --volume=/etc/sudoers.d:/etc/sudoers.d:ro qtiplot`
+`$ docker run -it --env=DISPLAY --env=QT_X11_NO_MITSHM=1 --volume=/tmp/.X11-unix:/tmp/.X11-unix:rw --volume=/etc/group:/etc/group:ro --volume=/etc/passwd:/etc/passwd:ro --volume=/etc/shadow:/etc/shadow:ro --volume=/etc/sudoers.d:/etc/sudoers.d:ro qtiplot_debian`
 
 If everything works, QtiPlot should show. You can now close the application. TO avoid multiple containers, blease do not execute the line above twice or more.
 Now, Disallow the X11 local connections (for security):
