@@ -1,5 +1,6 @@
 # qtiplot_docker
-##LICENSING
+##LICENSE
+
 ¢Filippo Falezza
 
 All the text written has been released under GPLv3, unless otherwise explicitly stated. All the packages and software the scripts may download, execute, modify or whatever is released under their own licenses and owned by their respective proprietors.
