@@ -14,7 +14,7 @@ To install, just build the dockerfile above, as:
 
 `$ cd qtiplot_docker`
 
-`$ docker build -t qtiplot_debian .`
+`$ docker build -t qtiplot_debian --build-arg username=$USER .`
 
 ## INITIAL SETUP AND CONFIGURATION
 After building everything, we need to allow a couple of things.
