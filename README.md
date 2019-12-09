@@ -38,3 +38,9 @@ And to start the docker image a second time, start the exited container, of whic
 
 This should give back a name, which needs to be substituted to `CONTAINER_NAME` in the QtiPlot.sh script in this repository.
 Please, add execution permissions to the script on your system if not present.
+
+### DONE
+-Single user integration qith folder
+
+### TODO
+-Solve errors in bash when calling commands without full path
