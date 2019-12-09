@@ -1,4 +1,5 @@
 # qtiplot_docker
+All the text written has been released under GPLv3, unless otherwise explicitly stated. All the packages and software the scripts may download, execute, modify or whatever is released under their own licenses and owned by their respective proprietors.
 
 ## INFO
 This is a repository to allow the installation of qtiplot on systems where pre-built packages are not available or compiling is very messy if not impossible.
